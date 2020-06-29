@@ -38,6 +38,14 @@ public class SFDCStopTeamController {
                 'https://trailblazer.me/id/rahulmalhotra'
             )
         );
+        sfdcstopContributors.add(
+            new Contributor(
+                'Sonia git ',
+                'https://pbs.twimg.com/profile_images/1208356452160589824/qLtb5g9P_400x400.jpg',
+                Date.newInstance(2020, 06, 21),
+                'https://trailblazer.me/id/rahulmalhotra'
+            )
+        );
         return JSON.serialize(sfdcstopContributors);
     }
 }
